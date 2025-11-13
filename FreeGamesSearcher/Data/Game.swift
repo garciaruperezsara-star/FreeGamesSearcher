@@ -8,8 +8,12 @@
 import Foundation
 
 struct Game: Codable {
-        
-        let id: Int
-        let name: String
-        let thumbnail: String
+    
+    let id: Int
+    let title: String
+    let thumbnail: String
+    let genre: String
+    let platform: String
+    
+    // enum Codingkeys: String, Codingkey{case title = "title"}
 }
